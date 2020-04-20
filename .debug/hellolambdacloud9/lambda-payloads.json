@@ -1,0 +1,25 @@
+{
+    "hellolambdacloud9": {
+        "lambda": {
+            "entity": "google"
+        },
+        "apigateway": {
+            "path": "/",
+            "method": {
+                "value": "POST",
+                "items": [
+                    "GET",
+                    "POST",
+                    "PUT",
+                    "DELETE",
+                    "HEAD",
+                    "OPTIONS",
+                    "PATCH"
+                ]
+            },
+            "body": {
+                "entity": "google"
+            }
+        }
+    }
+}
